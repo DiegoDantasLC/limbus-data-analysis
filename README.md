@@ -1,5 +1,17 @@
 # limbus-data-analysis
 
-O intuito desse projeto é mostrar a quantidade de IDs (versões alternativas de personagens) do jogo Limbus Company para cada Sinner, sendo elas lançadas durante a 7° temporada do jogo além disso o uso do sistema de raridade do jogo para servir como testes de funcionalidadede limpeza e correção de dados na tela de resultados. O gráfico gerado tem como objetivo mostrar a quantidade de IDs que cada boneco recebeu até o dia 14/05/2026.
+Este projeto tem como objetivo analisar os dados das IDs lançadas na Season 7 do jogo Limbus Company.
 
-Foi utilizado pandas e matplotlit para a análise de dados e python para criar os dados.
+O dataset contém informações sobre:
+
+- Nome da ID
+- Sinner associado
+- Raridade
+- Season da ID
+
+A análise busca identificar:
+
+- Quantidade de IDs por personagem
+- Distribuição das IDs entre os Sinners
+- Existência de dados inconsistentes ou nulos
+- Limpeza e tratamento do dataset
