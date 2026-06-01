@@ -19,6 +19,7 @@ A análise busca identificar:
 - Limpeza e tratamento do dataset
 
 
+
 Gráficos gerados a partir do Observable - Parte 2
 
 Devido a escassez de dados, optei por criar um novo CSV contendo todos os personagens lançados no jogo para gerar os gráficos.
