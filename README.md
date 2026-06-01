@@ -1,4 +1,6 @@
-# limbus-data-analysis - Parte 1
+# limbus-data-analysis
+
+Preenchimento de dados - Parte 1
 
 Este projeto tem como objetivo analisar os dados das IDs lançadas na Season 7 do jogo Limbus Company.
 
