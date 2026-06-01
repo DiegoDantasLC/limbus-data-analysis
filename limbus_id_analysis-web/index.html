@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de IDs de Limbus Company</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Análise de IDs de Limbus Company</h1>
+    <p>Projeto de Visualização e Análise de Dados</p>
+</header>
+
+<section>
+    <h2>Introdução</h2>
+
+    <p>
+        Este projeto tem como objetivo analisar as IDs presentes em
+        Limbus Company utilizando Python, Pandas, Google Colab,
+        ObservableHQ e Vega-Lite.
+    </p>
+
+    <p>
+        Os dados foram organizados em formato CSV e posteriormente
+        processados para gerar visualizações que permitem identificar
+        padrões relacionados às seasons, raridades e distribuição de
+        personagens.
+    </p>
+</section>
+
+<section>
+    <h2>Descrição do Dataset</h2>
+
+    <table>
+        <tr>
+            <th>Coluna</th>
+            <th>Descrição</th>
+        </tr>
+
+        <tr>
+            <td>id_name</td>
+            <td>Nome da ID.</td>
+        </tr>
+
+        <tr>
+            <td>sinner</td>
+            <td>Personagem associado à ID.</td>
+        </tr>
+
+        <tr>
+            <td>rarity</td>
+            <td>Raridade da ID (0, 00 ou 000).</td>
+        </tr>
+
+        <tr>
+            <td>season</td>
+            <td>Season em que a ID foi lançada.</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Metodologia</h2>
+
+    <p>
+        Inicialmente os dados foram coletados e organizados em uma
+        planilha CSV.
+    </p>
+
+    <p>
+        Em seguida, utilizando a biblioteca Pandas, foram realizadas
+        etapas de leitura, limpeza e análise dos dados.
+    </p>
+
+    <p>
+        Por fim, os dados foram exportados para o ObservableHQ,
+        onde foram criadas visualizações utilizando Vega-Lite.
+    </p>
+</section>
+
+<section>
+    <h2>Visualização 1 - Quantidade de IDs por Sinner</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-20"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 2 - Distribuição de IDs por Season das respectivas facções: Thumb, Index, Middle, Ring e Pinky</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-49"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 3 - Quantidade de IDs por Season</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-51"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 4 - Quantidade de IDs por Sinner em cada Season</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-53"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 5 - Quantiade de IDs por raridade</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-55"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 6 - Quantidade de IDs que possuem o nome "Lobotomy"</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-59"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 7 - Quantidade de IDs 000 por Sinners</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-61"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 8 - Quantidade de IDs 00 por Season</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-64"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Visualização 9 - Quantidade de IDs 000 por Season</h2>
+
+    <div class="grafico">
+        <iframe src="https://observablehq.com/@diegodantaslc/limbus_data_analisys#cell-105"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Participantes</h2>
+
+    <ul>
+        <li>Diego Dantas Bento</li>
+    </ul>
+</section>
+
+<footer>
+    Projeto de Análise de Dados - Limbus Company
+</footer>
+
+</body>
+</html>
