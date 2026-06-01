@@ -24,4 +24,4 @@ Gráficos gerados a partir do Observable - Parte 2
 
 Devido a escassez de dados, optei por criar um novo CSV contendo todos os personagens lançados no jogo para gerar os gráficos.
 
-Sendo o link dos gráficos localizados seguinte link: https://observablehq.com/d/2504dceb1f444a85?authuser=0&hl=pt-BR
+Sendo o link dos gráficos: https://observablehq.com/d/2504dceb1f444a85?authuser=0&hl=pt-BR
